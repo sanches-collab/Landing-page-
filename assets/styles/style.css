@@ -1,1 +1,142 @@
 
+:root {
+  --azul-dio: #0084ff;
+  --azul-escuro: #000c2e;
+  --preto: #000;
+  --branco: #fff;
+}
+
+body {
+  font-family: Raleway,sans-serif;
+  background-color: var(--preto);
+  color: var(--branco);
+}
+
+.banner {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+
+.banner-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.logo img {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.banner h1 {
+  color: var(--azul-dio);
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.banner button {
+  background-color: var(--azul-dio);
+  color: var(--branco);
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.banner button:hover {
+  background-color: #006acd;
+}
+
+#course-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+#course-content h2 {
+  color: var(--azul-dio);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#course-content p {
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+
+.modules-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.module {
+  background-color: var(--azul-escuro);
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.module span {
+  color: var(--azul-dio);
+  font-weight: bold;
+}
+
+#transform-world {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+#transform-world p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#professional-challenges {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#professional-challenges h2 {
+  color: var(--azul-dio);
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#professional-challenges img {
+  max-width: 100%;
+  margin: 30px 0;
+}
+
+#professional-challenges p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: var(--azul-escuro);
+}
+
+
+footer .dio-logo {
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+
+footer a {
+  color: var(--azul-dio);
+}
+
+
+footer a:hover {
+  text-decoration: underline;
+}
+
